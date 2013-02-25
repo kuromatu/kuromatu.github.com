@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[裏方の裏方 @kuromatu]]></title>
+  <link href="http://kuromatu.github.com/atom.xml" rel="self"/>
+  <link href="http://kuromatu.github.com/"/>
+  <updated>2013-02-26T00:38:41+09:00</updated>
+  <id>http://kuromatu.github.com/</id>
+  <author>
+    <name><![CDATA[@kuromatu]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[業務系プログラミングへのチャレンジのススメ #vgadvent2012]]></title>
+    <link href="http://kuromatu.github.com/blog/2012/12/14/practical-programming-challenge/"/>
+    <updated>2012-12-14T16:54:00+09:00</updated>
+    <id>http://kuromatu.github.com/blog/2012/12/14/practical-programming-challenge</id>
+    <content type="html"><![CDATA[<p>※この記事は<a href="http://tech.voyagegroup.com/archives/6776528.html">VOYAGE GROUP エンジニアブログ : Advent Calendar</a> 2012の14日目の記事として書かれています。</p>
+
+<p>VG Advent Calendarの14日目の担当の <a href="http://twitter.com/kuromatu">@kuromatu</a> です。
+最近ではすっかりPHPばかりを書いていますが、今でも<a href="https://github.com/pry/pry/">pry</a>は手放せないし、<a href="https://github.com/pry/pry/">pry</a>のようなREPLがPHPにもあればいいのに、と思う自称Rubyistです。</p>
+
+<p>ブログが３日と続かないことに定評がありますが、<a href="https://twitter.com/search?q=%23vgadvent2012&amp;src=hash">#vgadvent2012</a> こそ、このジンクスを打破するチャンスかと思い立ち、急いで<a href="http://octopress.org/">Octopress</a>でブログページをでっち上げて書いてみました。</p>
+
+<p>さて表題についてですが、実は昨日<a href="https://supporterz.jp/cp/detail/live-coding.html">サポーターズのイベント</a>で、郵便番号データ（KEN_ALL.CSV）をDBに取り込むというのをライブコーディングとしてチャレンジしてみる、というネタを主に学生に向けて披露していました。</p>
+
+<p>KEN_ALL.CSVは、日本郵便が公開しているken_all.lzh、ken_all.zipを解凍すると出力されるCSVファイルの名前です。全て大文字なところで、多くのプログラマは嫌な予感がしそうな気がしますよね。</p>
+
+<p><a href="http://www.post.japanpost.jp/zipcode/download.html">郵便番号データダウンロード - 日本郵便</a></p>
+
+<p>KEN_ALL.CSVと言えば、多くのプログラマにトラウマを植えつけたファイルとして有名で、<a href="http://togetter.com/li/352382">某所で話題に上がったり</a>していましたね。
+ライブコーディング自体は私の準備不足と、お題としてそもそもどうよというところで色々失敗してしまいましたが、それはまた別のお話。後日話します。</p>
+
+<p>この「KEN_ALL.CSVを取り込む」という問題を解いていてふと思ったのが、この手の問題は定番の手法が思ったより公開されていない、というところでした。
+最近になってちらほらと公開されてきたようですが、まだまだ公開され成熟した方法は少ないように思えます。</p>
+
+<p>KEN_ALL.CSVに関しては、PerlやRuby on Railsでは公開されていますね。私自身もとても参考になりました。この場を借りて御礼申し上げます。</p>
+
+<p><a href="https://github.com/yappo/p5-Parse-JapanesePostalCode">yappo/p5-Parse-JapanesePostalCode · GitHub</a></p>
+
+<p><a href="https://github.com/kazuhisa/ken_all/">kazuhisa/ken_all · GitHub</a></p>
+
+<p>というわけで何が言いたいかというと、冬休みの宿題として、アルゴリズム的なプログラミングへのチャレンジもいいけど、KEN_ALL.CSV的な業務的なプログラミングへのチャレンジもアリなんでない？というところです。</p>
+
+<p>私もWebエンジニアになってから、様々なCSVやXMLなどのデータを社内外のユーザに向けて利用しやすいような形式に変換・加工しWebアプリケーションの一部に組み込む、という仕事をよくやってきました。
+私が<a href="http://voyagegroup.com/">株式会社VOYAGE GROUP</a>に入ってからも何度かありました。</p>
+
+<p>決して楽しい仕事ではないかもしれませんが、とてもよく発生しうる仕事ですので、ある程度慣れておいて損は無いと思っています。</p>
+
+<p>KEN_ALL.CSV以外のお題としては、総務省や国土交通省など、国が提供しているデータはいかがでしょうか。もちろん、利用規約をよくお読みになった上での話ではありますが。</p>
+
+<p><a href="http://www.soumu.go.jp/denshijiti/code.html">総務省｜電子自治体｜全国地方公共団体コード</a></p>
+
+<p><a href="http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-P04.html">国土数値情報　医療機関データの詳細</a></p>
+
+<p>これらをうまいこと扱えると、仕事やマッシュアップイベントで活躍したり、さらに共有できれば社会貢献度が高まって良いんじゃないかと思います。</p>
+
+<p>休みの日まで業務意識でプログラミングしたくねーよ！というもっともなご意見はあるかと思いますが、自分で取り組んでみたら案外面白かったので、皆様も冬休みにチャレンジしてみてはいかがでしょうか。</p>
+
+<p>私も宿題として、この冬中にKEN_ALL.CSVを解決して<a href="https://github.com/kuromatu/">自分のGithubリポジトリ</a>に公開します。
+もし上がってなかったら、石やらマサカリやらを投げておいてください…。</p>
+
+<p>明日の担当は<a href="https://twitter.com/brtriver">@brtriver</a>さんです。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hello, world!]]></title>
+    <link href="http://kuromatu.github.com/blog/2012/12/14/hello/"/>
+    <updated>2012-12-14T16:47:00+09:00</updated>
+    <id>http://kuromatu.github.com/blog/2012/12/14/hello</id>
+    <content type="html"><![CDATA[<p>またブログを書いてみるテスト。また三日坊主にならないといいのだが。</p>
+]]></content>
+  </entry>
+  
+</feed>
