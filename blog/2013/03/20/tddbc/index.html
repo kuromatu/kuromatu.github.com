@@ -5,12 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Hello, world! - 裏方の裏方 @kuromatu</title>
+  <title>TDD Boot Camp Tokyo 2013-03に行ってきた #tddbc - 裏方の裏方 @kuromatu</title>
   <meta name="author" content="@kuromatu">
 
   
-  <meta name="description" content="またブログを書いてみるテスト。また三日坊主にならないといいのだが。
-">
+  <meta name="description" content="イベントページはこちら
+http://tddbc.doorkeeper.jp/events/2904 ■会場について 会場はいつもの株式会社VOYAGE GROUP
+参加人数は40ぐらい。AJITOではぎゅうぎゅう詰めなので、@t_wadaさんの講演とデモだけAJITO、後はパンゲア（ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://kuromatu.github.com/blog/2012/12/14/hello/">
+  <link rel="canonical" href="http://kuromatu.github.com/blog/2013/03/20/tddbc/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -68,7 +69,7 @@
   
   <header>
     
-      <h1 class="entry-title">Hello, World!</h1>
+      <h1 class="entry-title">TDD Boot Camp Tokyo 2013-03に行ってきた #tddbc</h1>
     
     
       <p class="meta">
@@ -84,14 +85,97 @@
   
 
 
-<time datetime="2012-12-14T16:47:00+09:00" pubdate data-updated="true">Dec 14<span>th</span>, 2012</time>
+<time datetime="2013-03-20T09:49:00+09:00" pubdate data-updated="true">Mar 20<span>th</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>またブログを書いてみるテスト。また三日坊主にならないといいのだが。</p>
+<div class="entry-content"><ul>
+<li>イベントページはこちら</li>
+<li><a href="http://tddbc.doorkeeper.jp/events/2904">http://tddbc.doorkeeper.jp/events/2904</a></li>
+</ul>
+
+
+<h2>■会場について</h2>
+
+<ul>
+<li>会場はいつもの<a href="http://voyagegroup.com/">株式会社VOYAGE GROUP</a></li>
+<li>参加人数は40ぐらい。<a href="http://voyagegroup.com/business/office/office016/">AJITO</a>ではぎゅうぎゅう詰めなので、<a href="https://twitter.com/t_wada">@t_wada</a>さんの講演とデモだけAJITO、後は<a href="http://voyagegroup.com/port/#a03">パンゲア</a>（一番広い会議室）で実施</li>
+<li>Wi-fi環境、飲み物、お酒があるのは楽</li>
+</ul>
+
+
+<h2>■@t_wada さんの講演</h2>
+
+<ul>
+<li>スピリチュアルな話 + 統計で見る有用性の解説。詳しくは<a href="http://www.slideshare.net/t_wada/presentations">スライド</a>で</li>
+<li>「6年くらいデバッガを使ってない」「使うときはIE6と戦うときだけ」</li>
+<li>仮実装、三角測量、黄金の回転（出典：スティール・ボール・ラン）重要</li>
+</ul>
+
+
+<h2>■TDDデモ</h2>
+
+<ul>
+<li>TA（Teaching Assistant）の <a href="https://twitter.com/yattom">@yattom</a>さん、 <a href="https://twitter.com/grimrose">@grimrose</a>さんによるペアプロ。お題はFizzBuzz</li>
+<li>TDDというよりはペアプロのデモという感じ</li>
+<li>作業しながらお互いの考えを尊重しどうコミュニケーションしていくか？という意思がよく伝わってきてとてもわかりやすかった</li>
+</ul>
+
+
+<h2>■TDD実践編</h2>
+
+<ul>
+<li><a href="https://twitter.com/lesamoureuses">monmon</a>さんとペア組み。お題は<a href="https://github.com/sue445/tddbc_tokyo_20130316">LTSV</a>。LTSVについては<a href="http://d.hatena.ne.jp/naoya/20130209/1360381374">こちら</a></li>
+<li>自分のPCで機能別に交代で実装していく。準備不足で継続的テスト環境構築（vim + rspec + guard）に手間取ったり、vim、tmuxのキーバインドの違いなどであたふたしてた</li>
+<li>TODO編集 -> テスト実装 -> RED -> 仮実装 -> GREEN -> 本実装 -> GREEN -> git ci -> 交代
+というサイクルが安定してからはかなりハイペースで作業できた</li>
+</ul>
+
+
+<h2>■レビュー</h2>
+
+<ul>
+<li>ペア相互レビューでは自分達と同じくRuby 2.0 + rspecで開発しているチームで実施。お互いにこういう方向で実装しようとしているよ、ってことを共有した。ここでうまく動いてなかったguardの設定を教えてもらって本当に助かった…</li>
+<li>全体レビューではRuby, PHP, Java, C#の代表がそれぞれ発表</li>
+<li>開発者別・言語別でのアプローチの違いは大きく、自分たちと対比してみるとそれぞれ利点・欠点が見えて面白い。やっぱり個人的にはRubyがいいなーと思ったり</li>
+</ul>
+
+
+<h2>■懇親会</h2>
+
+<ul>
+<li>野良LT合戦。個人的には参加者が持ち寄った「こういう場合、どうしたらいいんですかね」というお悩み相談会的なコンテンツがもっとあっても良かったかも、とあるLTを見て思った</li>
+<li>マイナー言語（TDDBC的な意味で）の発表は「こうがんばったぜ！」という勢いが見れて面白いですね</li>
+<li>マサカリ（質問的な意味で）が飛んでくる素敵な会場だと再認識</li>
+</ul>
+
+
+<h2>個人的なまとめ</h2>
+
+<ul>
+<li>TDDを体験として得られたのが最も大きな成果</li>
+<li>各種のおすすめ本を読み直したい。テスト駆動開発入門、レガシーコード改善ガイド、リファクタリングRubyエディションなど</li>
+<li>pry（デバッガ）を使って試す習慣がついているので、もっとテストとして書き残す習慣にシフトさせたい</li>
+</ul>
+
+
+<h2>■他力本願なまとめ</h2>
+
+<ul>
+<li><a href="https://twitter.com/PoohSunny">@PoohSunny</a>さんによるまとめ <a href="http://matome.naver.jp/odai/2136365798061279801">http://matome.naver.jp/odai/2136365798061279801</a></li>
+</ul>
+
+
+<h2>あとがき</h2>
+
+<ul>
+<li>作ったLTSVは<a href="https://github.com/kuromatu/2013-03-16-TDDBC">こちら</a></li>
+<li>本実装時にmonmonさんに「それRubyでこう書けるんですよ（ドヤ顔）」とよく言っていた気がする</li>
+</ul>
+
 </div>
 
 
@@ -114,7 +198,7 @@
   
 
 
-<time datetime="2012-12-14T16:47:00+09:00" pubdate data-updated="true">Dec 14<span>th</span>, 2012</time>
+<time datetime="2013-03-20T09:49:00+09:00" pubdate data-updated="true">Mar 20<span>th</span>, 2013</time>
       
 
 
@@ -122,7 +206,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://kuromatu.github.com/blog/2012/12/14/hello/" data-via="kuromatu" data-counturl="http://kuromatu.github.com/blog/2012/12/14/hello/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://kuromatu.github.com/blog/2013/03/20/tddbc/" data-via="kuromatu" data-counturl="http://kuromatu.github.com/blog/2013/03/20/tddbc/" >Tweet</a>
   
   
   
@@ -133,8 +217,8 @@
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2012/12/14/practical-programming-challenge/" title="Previous Post: 業務系プログラミングへのチャレンジのススメ #vgadvent2012">&laquo; 業務系プログラミングへのチャレンジのススメ #vgadvent2012</a>
       
-        <a class="basic-alignment right" href="/blog/2012/12/14/practical-programming-challenge/" title="Next Post: 業務系プログラミングへのチャレンジのススメ #vgadvent2012">業務系プログラミングへのチャレンジのススメ #vgadvent2012 &raquo;</a>
       
     </p>
   </footer>
