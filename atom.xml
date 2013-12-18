@@ -4,7 +4,7 @@
   <title><![CDATA[裏方の裏方 @kuromatu]]></title>
   <link href="http://kuromatu.github.com/atom.xml" rel="self"/>
   <link href="http://kuromatu.github.com/"/>
-  <updated>2013-03-20T10:29:58+09:00</updated>
+  <updated>2013-12-18T12:59:07+09:00</updated>
   <id>http://kuromatu.github.com/</id>
   <author>
     <name><![CDATA[@kuromatu]]></name>
@@ -12,6 +12,95 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[2013年のAJITO活用事例 #vgadgent2013]]></title>
+    <link href="http://kuromatu.github.com/blog/2013/12/18/vgadgent2013/"/>
+    <updated>2013-12-18T11:39:00+09:00</updated>
+    <id>http://kuromatu.github.com/blog/2013/12/18/vgadgent2013</id>
+    <content type="html"><![CDATA[<p>こんにちは。
+<a href="https://twitter.com/shinbashi">@shinbashi</a> さんにモンスターと呼ばれて悲しみを背負った <a href="https://twitter.com/kuromatu">@kuromatu</a> です。</p>
+
+<p>この記事は<a href="http://tech.voyagegroup.com/archives/7434017.html">VOYAGE GROUP エンジニアブログ Advent Calendar 2013</a> の17日目の記事になります。</p>
+
+<p>せっかくなのでモンスターにちなんだ記事にしようと1日思案しましたが、特に思い浮かばなかったので、
+私の独断と偏見で弊社の<a href="http://voyagegroup.com/business/office/office016/">社内バーAJITO</a>の2013年におけるエンジニアに関した活用事例でもご紹介しようかと思います。</p>
+
+<h2>1.勉強会</h2>
+
+<p>今年も環境・言語を問わず、様々な勉強会が開催されました。
+AJITOだけでなく、<a href="http://voyagegroup.com/port/#a03">大会議室パンゲア</a>を含めた他会議室での開催も含めると、大変な数になりますね。
+以下はAJITOで行われたほんの一例ですが、どのイベントも大変有意義で盛り上がったのではないでしょうか。</p>
+
+<ul>
+<li><a href="http://www.zusaar.com/event/704003">Symfony勉強会 #8</a></li>
+<li><a href="http://atnd.org/events/37714">PRML復々習レーン #10</a></li>
+<li><a href="http://atnd.org/event/E0016232">java-ja.jojo #2</a></li>
+<li><a href="http://partake.in/events/76854228-ba38-4f6e-87b9-f79e30add75c">第4回 データ構造と情報検索と言語処理勉強会 #DSIRNLP</a></li>
+</ul>
+
+
+<p>個人的には「<a href="http://www.kokubu.co.jp/foods/lineup/000013.html">缶つま</a>」が大変気になっていたので、社内外の方々を募って<a href="http://www.zusaar.com/event/744003">缶つま勉強会</a>を開催しました。
+大変好評だったのと、まだまだ試し足りないので来年もやってみようかと思います。</p>
+
+<p>また、今年は弊社関連会社であり、<a href="https://supporterz.jp/">学生の就職活動を支援する株式会社サポーターズ</a>主催の
+<a href="https://supporterz.jp/cp/detail/live-coding.html">ライブコーディングイベント</a>が開催され、地味に盛り上がったりしてました。</p>
+
+<h2>2.コミュニティイベント・ハッカソン</h2>
+
+<p>Ruby・TDDなど、大変魅力的な技術コミュニティの皆様にもご活用いただきました。</p>
+
+<ul>
+<li><a href="http://www.zusaar.com/event/1043003">渋谷.rb[:20130918]</a></li>
+<li><a href="http://tddbc.doorkeeper.jp/events/2904">TDD Boot Camp Tokyo 2013-03 - TDDBC</a></li>
+<li><a href="http://atnd.org/event/wheezy">Debian7.0 &#8220;Wheezy&#8221;リリースパーティ</a></li>
+</ul>
+
+
+<p>そういえば「<a href="http://kokucheese.com/event/index/77947/">リリカルハッカソン</a>」というのもありました。
+私も外から少し眺めていたのですが、上映中の一体感・静かな盛り上がりは、参加された皆様にとって中々貴重な体験だったのではないでしょうか。</p>
+
+<h2>3. <a href="https://twitter.com/search?q=%23ajiting&amp;src=typd&amp;f=realtime">#ajiting</a></h2>
+
+<p>個人的には今年最も印象深い活用事例です。
+ 「<a href="https://twitter.com/search?q=%23ajiting&amp;src=typd&amp;f=realtime">#ajiting</a>」はAJITOを使った活動、というぐらいのゆるい意味合いだと思うのですが、
+多くの場合には、いわゆる「エンジニアなおまえら」の酒場というようなイメージが強かったかと思います。</p>
+
+<p>具体的に何をしていたかと言うと、</p>
+
+<ul>
+<li>もくもくとビールを飲みながらコードを書いたり、</li>
+<li>日頃書いてるコードの考えについて話し合ったり、</li>
+<li>先輩エンジニアが若手エンジニアにパソコン通信やテレホーダイやICQが盛り上がっていた時代の話をしたり、</li>
+<li>光の戦士としての生き方について語ったり、</li>
+</ul>
+
+
+<p>とかかなーと思いました。</p>
+
+<p>他にも、</p>
+
+<ul>
+<li>ログ活用界隈の偉い方々をビールをだしに呼んで貴重なお話をうかがったり、</li>
+<li>今年弊社をご卒業された、<a href="https://twitter.com/bash0c7">@bash0C7</a> さんを<a href="http://atnd.org/events/45056">囲む会</a>をやったり、</li>
+<li><a href="http://atnd.org/events/46161">VOYA Rock Festival 2013</a>という楽器を持ち寄った演奏飲み会もあったり</li>
+</ul>
+
+
+<p>しました。おっと失礼、<a href="http://atnd.org/events/46161">VOYA Rock Festival 2013</a>についてはこちらはまだ募集中な感じですね。今ならまだ参加間に合うので、自宅に楽器を眠らせている方はぜひ持参して参加しちゃいましょう！</p>
+
+<h2>最後に</h2>
+
+<p>このような具合に今年も様々なエンジニアに関するイベント・催し物が行われました。
+来年度も引き続きAJITO・パンゲア等の会議室を会場提供しておりますので、
+ご興味のある方はぜひ弊社クルーまでご相談ください。</p>
+
+<p>最後に、毎回会場の整備やビールをご提供いただいている弊社クルーの皆様に感謝します。
+いつもいつもありがとうございます。大変楽しませてもらっております。</p>
+
+<p>次の担当はガイアさんです。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[TDD Boot Camp Tokyo 2013-03に行ってきた #tddbc]]></title>
