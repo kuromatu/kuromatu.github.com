@@ -5,3 +5,12 @@ title = "about"
 
 +++
 
+## 書いてる人
+
+kuromatu
+
+## 書いてる人の情報
+
+Twitter: https://twitter.com/kuromatu
+
+Github: https://github.com/kuromatu
